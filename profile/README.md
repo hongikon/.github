@@ -49,7 +49,7 @@
 
 | Role | Name | GitHub |
 |---|---|---|
-| Backend Lead | 주세원 | [@sewonzoo]https://github.com/sewonzoo |
+| Backend Lead | 주세원 | [@sewonzoo](https://github.com/sewonzoo) |
 | Frontend | 최석훈 | [@Sskskxi](https://github.com/Sskskxi) |
 | PM / Crawler | 이관진 | [@Jinius36](https://github.com/Jinius36) |
 
