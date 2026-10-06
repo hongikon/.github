@@ -1,10 +1,14 @@
 <div align="center">
 
-# 🎓 HongikOn (홍익온)
+<img src="./icon.png" width="96" height="96" alt="홍익온 앱 아이콘" />
+
+# HongikOn (홍익온)
 
 **홍익대학교 캠퍼스 앱 · 졸업 프로젝트**
 
 지도·내비게이션과 공지사항을 하나로 묶은 홍익대학교 전용 캠퍼스 앱입니다.
+
+**[hongikon.com](https://hongikon.com)**
 
 </div>
 
@@ -31,9 +35,9 @@
 - Spring Security + Kakao OAuth2 + JWT
 
 **Frontend**
-![React Native](https://img.shields.io/badge/React%20Native-Expo%20SDK%2056-61DAFB?style=flat&logo=react&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-Expo%20SDK%2057-61DAFB?style=flat&logo=react&logoColor=white)
 
-- React Native + Expo SDK 56
+- React Native + Expo SDK 57
 
 **Map**
 - Naver Maps (WebView + 웹 JS API)
