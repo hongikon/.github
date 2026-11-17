@@ -1,66 +1,79 @@
 <div align="center">
 
-<img src="./icon.png" width="96" height="96" alt="홍익온 앱 아이콘" />
+<img src="./icon.png" width="112" height="112" alt="홍익온 앱 아이콘" />
 
-# HongikOn (홍익온)
+# 홍익온
 
-**홍익대학교 캠퍼스 앱 · 졸업 프로젝트**
+**홍익대학교 학생을 위한 캠퍼스 앱**
 
-지도·내비게이션과 공지사항을 하나로 묶은 홍익대학교 전용 캠퍼스 앱입니다.
+학교 공지 알림, 캠퍼스 지도와 길찾기, 학교 앞 제휴 할인까지 한 앱에서.
 
-**[hongikon.com](https://hongikon.com)**
+<br>
+
+<a href="https://apps.apple.com/kr/app/id6818954901"><img src="./assets/badge-app-store.svg" width="175" height="54" alt="App Store에서 다운로드하기" /></a>&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.hongikon.app"><img src="./assets/badge-google-play.png" width="182" height="54" alt="Google Play에서 다운로드하기" /></a>
+
+<a href="https://hongikon.com">hongikon.com</a> 에서 웹으로도 볼 수 있어요.
+
+<br>
+
+<img src="./assets/screen-partners.png" width="200" alt="지도에서 학교 앞 제휴 업체를 보여 주는 화면" />
+<img src="./assets/screen-facilities.png" width="200" alt="건물 층별 행정실과 편의시설 목록 화면" />
+<img src="./assets/screen-notices.png" width="200" alt="학과·학교 게시판 구독 관리 화면" />
+<img src="./assets/screen-reports.png" width="200" alt="캠퍼스 제보 소개 화면" />
 
 </div>
 
----
+<br>
 
-## 📱 About
+## 공지, 놓치기 전에 알림으로
 
-**홍익온**은 두 가지 핵심 기능을 중심으로 만들어지는 캠퍼스 앱입니다.
+학교 공지와 학과 게시판의 새 글을 한곳에 모았어요. 보고 싶은 게시판을 구독하거나 키워드를 등록해 두면 새 글이 올라올 때 알림으로 알려 드려요. 모든 공지에는 출처 게시판이 붙어 있고, 학교 홈페이지 원문으로 바로 갈 수 있어요.
 
-- 🗺️ **지도 / 내비게이션** — 건물·시설 마커, 실내 경로 안내, 캠퍼스 내 보행자 경로 탐색
-- 📢 **공지사항** — 학사공지 구독, 키워드 알림, 관심 정보만 골라 받아보기
+## 캠퍼스 지도와 길찾기
 
-여기에 제보 기능, 제휴업체(Partners) 정보, 즐겨찾기(Bookmark) 등 학생들의 캠퍼스 생활을 돕는 기능들을 더하고 있습니다.
+행정실, 프린터, 라운지가 몇 층에 있는지 지도에서 바로 찾을 수 있어요. 가려는 건물과 층을 고르면 걷는 길을 안내하고, 계단이나 엘리베이터에서 몇 층으로 가야 하는지도 함께 보여 드려요.
 
-## 🛠️ Tech Stack
+## 학교 앞 제휴 할인
 
-**Backend**
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-17-007396?style=flat&logo=openjdk&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+학생회와 단과대학이 공개한 제휴 업체와 혜택을 지도와 목록으로 한눈에 볼 수 있어요.
 
-- Spring Boot 4.1.0 (Spring Framework 7 / Jakarta EE 11)
-- JPA / Hibernate, MySQL
-- Spring Security + Kakao OAuth2 + JWT
+## 캠퍼스 제보
 
-**Frontend**
-![React Native](https://img.shields.io/badge/React%20Native-Expo%20SDK%2057-61DAFB?style=flat&logo=react&logoColor=white)
+행사, 푸드트럭처럼 지금 캠퍼스에서 일어나는 일을 지도에 올리고 댓글로 상황을 나눌 수 있어요. 제보는 운영진이 확인한 뒤 지도에 표시돼요.
 
-- React Native + Expo SDK 57
+## 물어보기 <sup>BETA</sup>
 
-**Map**
-- Naver Maps (WebView + 웹 JS API)
+휴학, 수강신청, 장학처럼 학교 일이 궁금하면 물어보세요. 학교 홈페이지 안내와 공지를 근거로 답하고, 답 아래에 원문 링크를 붙여 드려요. 시험 운영 중인 기능이라 중요한 일정과 조건은 원문으로 한 번 더 확인해 주세요.
 
-## 📦 Repositories
+<br>
 
-| Repository | Description |
-|---|---|
-| [hongikon-be](https://github.com/hongikon/hongikon-be) | 백엔드 (Spring Boot) |
-| [hongikon-fe](https://github.com/hongikon/hongikon-fe) | 프론트엔드 (React Native + Expo) |
+## 로그인 없이 바로
 
-## 👥 Team
+지도, 공지, 제휴 정보는 설치하자마자 로그인 없이 볼 수 있어요. 공지 알림, 제보, 물어보기는 카카오 또는 Apple 로그인 후에 쓸 수 있어요.
 
-| Role | Name | GitHub |
+## 개인정보
+
+어떤 정보를 왜 받는지는 [개인정보 처리방침](https://hongikon.com/privacy/)에 적어 두었어요. 앱 설정의 회원 탈퇴나 [계정 삭제 안내](https://hongikon.com/account-deletion/)에서 언제든 계정과 데이터를 지울 수 있어요.
+
+## 문의
+
+- 앱 설정 > 문의하기
+- 이메일 hongikonsupport@gmail.com
+- [고객 지원](https://hongikon.com/support/) · [이용약관](https://hongikon.com/terms/)
+
+<br>
+
+## 만든 사람들
+
+| 이름 | 맡은 일 | GitHub |
 |---|---|---|
-| Backend Lead | 주세원 | [@sewonzoo](https://github.com/sewonzoo) |
-| Frontend | 최석훈 | [@Sskskxi](https://github.com/Sskskxi) |
-| PM / Crawler | 이관진 | [@Jinius36](https://github.com/Jinius36) |
+| 최석훈 | 앱 | [@Sskskxi](https://github.com/Sskskxi) |
+| 주세원 | 서버 | [@sewonzoo](https://github.com/sewonzoo) |
+| 이관진 | 기획 · 소식 수집 | [@Jinius36](https://github.com/Jinius36) |
+
+<br>
 
 ---
 
-<div align="center">
-
-홍익대학교 졸업 프로젝트 · 2026
-
-</div>
+<sub>홍익온은 홍익대학교 학생들이 만든 비공식 서비스로, 홍익대학교와 공식 관계가 없어요.<br>
+Apple 및 Apple 로고는 미국과 기타 국가에서 등록된 Apple Inc.의 상표이며, App Store는 Apple Inc.의 서비스 마크입니다. Google Play 및 Google Play 로고는 Google LLC의 상표입니다.</sub>
